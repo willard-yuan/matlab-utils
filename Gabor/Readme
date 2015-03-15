@@ -1,0 +1,11 @@
+Description	
+First function named "gaborFilterBank" generates a custom-sized Gabor filter bank. It creates a u*v array, whose elements are m by n matrices; each matrix being a 2-D Gabor filter. 
+Second function named "gaborFeatures" extracts the Gabor features of the image. 
+It creates a column vector, consisting of the image's Gabor features. 
+At the end of each file there is a Show section that plots the filters and shows the filtered images. These are only for illustration purpose, and you can comment them as you wish. 
+  
+Details can be found in: 
+  
+M. Haghighat, S. Zonouz, M. Abdel-Mottaleb, "Identification Using Encrypted Biometrics," Computer Analysis of Images and Patterns, Springer Berlin Heidelberg, pp. 440-448, 2013.
+
+http://www.mathworks.com/matlabcentral/fileexchange/44630-gabor-feature-extraction#comments
