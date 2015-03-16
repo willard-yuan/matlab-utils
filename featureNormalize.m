@@ -53,11 +53,9 @@ for i=1:size(mu,2)
 end
 
 
-
+function [X] = normalize(X)
 % use L2 to normalize
 % X = (m x d) dimensions
-function [X] = normalize(X)
-
 for i=1:size(X,1)
     if(norm(X(i,:))==0)
         
